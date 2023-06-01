@@ -1,0 +1,83 @@
+/*...............................*/
+
+body{
+    background-color:#FFF;
+}
+
+/*...............................*/
+
+.header {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    font-size: 100px;
+    color: #FFF;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+/*...............................*/
+
+.topnav {
+    position: sticky;
+    top:0;
+    overflow: visible;
+    padding: 10px;
+    height: 30px;
+    background-color:transparent;
+  }
+  
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    color: blue;
+}
+
+/*......................................*/
+
+div.relative {
+  position: relative;
+  width: 1200px;
+  height: 320px;
+  border: 2px solid #060606;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #040404;
+}
+
+/*.......................................*/
+
+header {
+  background: radial-gradient(yellow,orange);
+  height: 50px;
+  width: 80%;
+}
+
+.lefter {
+  float: left;
+  width: 200px;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-around;
+
+}
+.frame{
+  border-top: 5px solid black;
+}
+
+/*...........................................*/
